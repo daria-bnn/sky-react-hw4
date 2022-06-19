@@ -52,7 +52,7 @@ export default class ReacTimer extends React.Component {
   render() {
     return (
       <div className="ReacTimer">
-        <h1>React Timer</h1>
+        <h2>React Timer</h2>
         <h3>{this.state.count}</h3>
         {!this.state.isCounting ? (
           <button type="button" onClick={this.handleStart}>
