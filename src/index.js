@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import CurrentTime from './components/current-time'
 import ReacTimer from './components/reac-timer'
+import PomodoroTracker from './components/pomodoro-tracker'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -10,5 +11,6 @@ root.render(
     <App />
     <ReacTimer />
     <CurrentTime />
+    <PomodoroTracker />
   </React.StrictMode>
 )
